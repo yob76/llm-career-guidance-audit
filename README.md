@@ -1,7 +1,4 @@
-# llm-career-guidance-audit
-Replication materials for: LLM Career Guidance Audit: Differential Output by Identity Condition. Yasmeen Bashadi, iSchool Honors Thesis, University of Texas at Austin, May 2026.
 # LLM Career Guidance Audit: Differential Output by Identity Condition
-
 Replication materials for the iSchool Honors Thesis:
 
 **Yasmeen Bashadi**
@@ -43,19 +40,23 @@ Outputs were coded along two dimensions:
 | `resume_audit_COMPLETE.xlsx` | Qualitative annotation spreadsheet with row-by-row analysis of all 80 outputs |
 
 ### Output folder structure (inside outputs.zip)
+```
 outputs/
 ├── condition_A_asian_male/
 ├── condition_B_asian_female/
 ├── condition_C_white_male/
 └── condition_D_white_female/
+```
 Each folder contains 20 .txt files, one per resume type, named:
 `{resume_type}_{first_name}_{last_name}.txt`
 
 ---
 
 ## Requirements
+```
 openai
 openpyxl
+```
 Install with:
 ```bash
 pip install openai openpyxl
